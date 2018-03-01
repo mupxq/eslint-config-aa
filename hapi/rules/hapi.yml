@@ -1,0 +1,39 @@
+#
+# function.yml
+#
+# @author Hanyu Xue <hanyu.xue@afficienta.com>
+# @project eslint-config-aa
+# @license March, 2018 Afficient Academy, Inc. All Rights Reserved
+#
+---
+plugins:
+  - hapi
+
+
+rules:
+
+
+    #
+    # Enforce new line at the beginning of function scope
+    #
+    hapi/hapi-scope-start:
+      - error
+      - allow-one-liners
+
+
+    #
+    # Enforces capitalization of imported module variables.
+    #
+    hapi/hapi-capitalize-modules: off
+
+
+    #
+    # Enforces for loop iterator variable rules and restricts loop nesting depth.
+    #
+    hapi/hapi-for-you: off
+
+
+    #
+    # Prevents arrow functions that implicitly create additional arrow functions.
+    #
+    hapi/no-arrowception: off

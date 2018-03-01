@@ -1,0 +1,14 @@
+#
+# overrides.yml
+#
+# @author Hanyu Xue <hanyu.xue@afficienta.com>
+# @project eslint-config-aa
+# @license March, 2018 Afficient Academy, Inc. All Rights Reserved
+#
+---
+rules:
+
+    #
+    # This override is specifically here for the 'styles' use case in React
+    #
+    no-use-before-define: off

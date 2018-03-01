@@ -1,0 +1,19 @@
+#
+# promise.yml
+#
+# @author Hanyu Xue <hanyu.xue@afficienta.com>
+# @project eslint-config-aa
+# @license March, 2018 Afficient Academy, Inc. All Rights Reserved
+#
+---
+plugins:
+  - promise
+
+
+rules:
+
+
+    #
+    # Prefer await to then() for reading Promise values
+    #
+    promise/prefer-await-to-then: warn
